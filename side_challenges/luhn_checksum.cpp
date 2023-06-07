@@ -5,7 +5,6 @@ using namespace std;
 //Function prototype
 int double_digit(int digit);
 int add_two_digits(int digit);
-char convert_char_digit(char character);
 
 int main() {
     char digit {};
