@@ -7,7 +7,7 @@ int main(){
     int num1 {0};
     cout << "Enter an integer for num1: ";
     cin >> num1;
-    
+
     int num2 {0};
     cout << "Enter an integer for num2: ";
     cin >> num2;
@@ -23,7 +23,7 @@ int main(){
     int prefix_result {0};
     cout << "Before prefix increment of num1: ++num1" << endl;
     cout << "num1 = " << num1 << "  prefix result = " << prefix_result << endl;
-    
+
     // Prefix increment
     prefix_result = ++num1;  // num1 = 11, result = 11
     cout << "After prefix increment: " << endl;
@@ -53,7 +53,7 @@ int main(){
     prefix_result = 0;
     cout << "Before prefix increment of num1: --num1" << endl;
     cout << "num1 = " << num1 << "  prefix result = " << prefix_result << endl;
-    
+
     // Prefix increment
     prefix_result = --num1;  // num1 = 11, result = 11
     cout << "After prefix increment: " << endl;
